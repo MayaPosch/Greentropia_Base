@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name IoP_plant_base-rescue)(type Legacy)(uri ${KIPRJMOD}/IoP_plant_base-rescue.lib)(options "")(descr ""))
+)
