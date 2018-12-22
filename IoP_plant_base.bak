@@ -36,7 +36,7 @@ U 1 1 5B501401
 P 8050 3650
 F 0 "J5" H 8130 3692 50  0000 L CNN
 F 1 "Conn_01x03" H 8130 3601 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 8050 3650 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 8050 3650 50  0001 C CNN
 F 3 "~" H 8050 3650 50  0001 C CNN
 	1    8050 3650
 	1    0    0    1   
@@ -47,7 +47,7 @@ U 1 1 5B509847
 P 2100 1050
 F 0 "J2" H 2155 1375 50  0000 C CNN
 F 1 "Jack-DC" H 2155 1284 50  0000 C CNN
-F 2 "Connectors:BARREL_JACK" H 2150 1010 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 2150 1010 50  0001 C CNN
 F 3 "~" H 2150 1010 50  0001 C CNN
 	1    2100 1050
 	1    0    0    -1  
@@ -272,7 +272,7 @@ U 1 1 5B514072
 P 2300 2200
 F 0 "J3" H 2220 1875 50  0000 C CNN
 F 1 "Conn_01x02" H 2220 1966 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 2300 2200 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 2300 2200 50  0001 C CNN
 F 3 "~" H 2300 2200 50  0001 C CNN
 	1    2300 2200
 	-1   0    0    1   
@@ -489,7 +489,7 @@ U 1 1 5B5350AE
 P 8050 3050
 F 0 "J4" H 7970 2725 50  0000 C CNN
 F 1 "Conn_01x02" H 7970 2816 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 8050 3050 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 8050 3050 50  0001 C CNN
 F 3 "~" H 8050 3050 50  0001 C CNN
 	1    8050 3050
 	1    0    0    -1  
@@ -503,14 +503,13 @@ Wire Wire Line
 Connection ~ 7750 3750
 Wire Wire Line
 	7850 3050 7600 3050
-NoConn ~ 2400 1050
 $Comp
 L Connector_Generic:Conn_01x02 J6
 U 1 1 5B51F241
 P 5850 3050
 F 0 "J6" H 5770 2725 50  0000 C CNN
 F 1 "Conn_01x02" H 5770 2816 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5850 3050 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 5850 3050 50  0001 C CNN
 F 3 "~" H 5850 3050 50  0001 C CNN
 	1    5850 3050
 	1    0    0    -1  
@@ -547,7 +546,7 @@ U 1 1 5B6CA930
 P 1000 6000
 F 0 "J7" H 1000 6350 50  0000 C CNN
 F 1 "Conn_01x05" H 920 5666 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight" H 1000 6000 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 1000 6000 50  0001 C CNN
 F 3 "~" H 1000 6000 50  0001 C CNN
 	1    1000 6000
 	-1   0    0    1   
@@ -1147,7 +1146,7 @@ U 1 1 5B967D53
 P 7550 4950
 F 0 "IC2" H 8300 5215 50  0000 C CNN
 F 1 "CD40109BPW" H 8300 5124 50  0000 C CNN
-F 2 "" H 8900 5050 50  0001 L CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8900 5050 50  0001 L CNN
 F 3 "http://uk.rs-online.com/web/p/products/6629515" H 8900 4950 50  0001 L CNN
 F 4 "Voltage Level Shifter 16-Pin TSSOP Texas Instruments CD40109BPW, Voltage Level Shifter, 3-State, 3  18 V, 16-Pin TSSOP" H 8900 4850 50  0001 L CNN "Description"
 F 5 "1.2" H 8900 4750 50  0001 L CNN "Height"
@@ -1245,7 +1244,7 @@ U 1 1 5BA16A3F
 P 9900 4050
 F 0 "J8" H 9980 4042 50  0000 L CNN
 F 1 "Conn_01x06" H 9980 3951 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_B6B-PH-K_06x2.00mm_Straight" H 9900 4050 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 9900 4050 50  0001 C CNN
 F 3 "~" H 9900 4050 50  0001 C CNN
 	1    9900 4050
 	1    0    0    -1  
@@ -1285,4 +1284,50 @@ Wire Wire Line
 	9600 4250 9700 4250
 Wire Wire Line
 	9600 4150 9700 4150
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C1F4A26
+P 10050 2150
+F 0 "H1" H 10150 2196 50  0000 L CNN
+F 1 "MountingHole" H 10150 2105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10050 2150 50  0001 C CNN
+F 3 "~" H 10050 2150 50  0001 C CNN
+	1    10050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C1F4AAC
+P 10050 2300
+F 0 "H2" H 10150 2346 50  0000 L CNN
+F 1 "MountingHole" H 10150 2255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10050 2300 50  0001 C CNN
+F 3 "~" H 10050 2300 50  0001 C CNN
+	1    10050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C1F4B1C
+P 10050 2450
+F 0 "H3" H 10150 2496 50  0000 L CNN
+F 1 "MountingHole" H 10150 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10050 2450 50  0001 C CNN
+F 3 "~" H 10050 2450 50  0001 C CNN
+	1    10050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C1F4B8E
+P 10050 2600
+F 0 "H4" H 10150 2646 50  0000 L CNN
+F 1 "MountingHole" H 10150 2555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10050 2600 50  0001 C CNN
+F 3 "~" H 10050 2600 50  0001 C CNN
+	1    10050 2600
+	1    0    0    -1  
+$EndComp
+Text Label 3450 950  0    50   ~ 0
++5V
 $EndSCHEMATC
