@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.1)-rc2")
+(kicad_pcb (version 20171130) (host pcbnew "(6.0.0-rc1-dev-985-g576a0af29)")
 
   (general
     (thickness 1.6)
@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -45,8 +45,6 @@
     (zone_clearance 0.3)
     (zone_45_only yes)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -56,6 +54,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -91,9 +91,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -2623,7 +2623,7 @@
     )
   )
 
-  (module kicad_art:nyantronics_logo (layer F.Cu) (tedit 0) (tstamp 5C243102)
+  (module kicad_art:nyantronics_logo locked (layer F.Cu) (tedit 0) (tstamp 5C243102)
     (at 117.38102 105.25506 90)
     (fp_text reference G*** (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -2814,7 +2814,7 @@
       (xy -0.939992 -1.772491) (xy -0.500661 -1.775565) (xy -0.047814 -1.77677) (xy 0.406741 -1.776106)) (layer F.SilkS) (width 0.01))
   )
 
-  (module kicad_art:kitten_paw_prints (layer F.Cu) (tedit 0) (tstamp 5C2427D2)
+  (module kicad_art:kitten_paw_prints locked (layer F.Cu) (tedit 0) (tstamp 5C2427D2)
     (at 109.36224 106.55808 90)
     (fp_text reference G*** (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -3534,7 +3534,7 @@
   (segment (start 125.1112 91.0336) (end 125.1112 92.7418) (width 0.3) (layer F.Cu) (net 33) (status 10))
   (segment (start 122.682 121.4628) (end 122.2248 121.92) (width 0.3) (layer F.Cu) (net 34))
   (segment (start 122.682 115.6208) (end 122.682 121.4628) (width 0.3) (layer F.Cu) (net 34))
-  (segment (start 116.332 93.901) (end 116.332 109.2708) (width 0.3) (layer F.Cu) (net 34))
+  (segment (start 116.332 93.901) (end 116.332 109.2708) (width 0.3) (layer F.Cu) (net 34) (status 40000))
   (segment (start 116.332 109.2708) (end 122.682 115.6208) (width 0.3) (layer F.Cu) (net 34))
   (segment (start 124.4542 85.1406) (end 124.4612 85.1336) (width 0.3) (layer F.Cu) (net 35) (status 30))
   (segment (start 122.2756 85.1406) (end 124.4542 85.1406) (width 0.3) (layer F.Cu) (net 35) (status 30))
@@ -3615,7 +3615,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C242356) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C24784F) (hatch edge 0.508)
     (connect_pads (clearance 0.3))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3879,7 +3879,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C242353) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C24784C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4201,7 +4201,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C242350) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C247849) (hatch edge 0.508)
     (connect_pads (clearance 0.3))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing chamfer))
@@ -4537,7 +4537,7 @@
       )
     )
   )
-  (zone (net 5) (net_name "Net-(D2-Pad2)") (layer F.Cu) (tstamp 5C24234D) (hatch edge 0.508)
+  (zone (net 5) (net_name "Net-(D2-Pad2)") (layer F.Cu) (tstamp 5C247846) (hatch edge 0.508)
     (priority 1)
     (connect_pads yes (clearance 0.3))
     (min_thickness 0.254)
