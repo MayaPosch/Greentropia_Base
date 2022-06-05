@@ -8,4 +8,4 @@ This is the final board (without NodeMCU board installed):
 
 ![Base Board](greentropia_base.jpg "Base Board")
 
-This repository contains the full KiCad project for the board. More information about the Greentropia project can be found at [Nyantronics](http://wwww.nyantronics.com/ "Nyantronics.com").
+This repository contains the full KiCad project for the board. More information about the Greentropia project can be found at [Nyantronics](http://nyantronics.com/ "Nyantronics.com").
